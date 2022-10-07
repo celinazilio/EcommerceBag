@@ -1,22 +1,18 @@
-import './NavBar.scss'
 import CartWidget from '../CartWidget/CartWidget'
-
-export const Navbar = () => {
+import './NavBar.css'
+export const NavBar = () => {
 
     return (
-        <header className="header2">
-            <div className="header__container">
-                <h1 className="header__logo">BolsaLogo</h1>
+        <div className="header__container navbars">
+            <a href="/" className="header__logo h1 noselect">ku-donuts</a>
                 <nav className="header__navbar">
-                    <li className="header__navlink">Producto</li>
-                    <li className="header__navlink">Contacto</li>
-                    <li className="header__navlink">Faq</li>
+                <a href="/tienda" className="header__navlink noselect">Tienda</a>
+                <a href="/contacto" className="header__navlink noselect">Contacto</a>
                 </nav>
                 <CartWidget/>
             </div>
-        </header>
     )
 }
 
 
-export default Navbar
+export default NavBar

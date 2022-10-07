@@ -1,0 +1,68 @@
+.navbars {
+    background-color: var(--sombra);
+    border-radius: 4rem;
+    margin: 1rem auto;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    padding: 15px 0;
+}
+
+.header__navbar {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__navlink {
+    font-size: small;
+    color: var(--gray);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.header__navlink:hover, a:hover {
+    color: var(--black);
+}
+
+.cartIcon:hover {
+    color: var(--orange);
+}
+
+.bienvenida {
+    font-style: italic;
+    font-size: xx-large;
+}
+
+strong {
+    color: var(--orange);
+}
+.h1 {
+    font-size: medium;
+    color: var(--red);
+}
+ 
+a {
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.navbar2 {
+    background-color: var(--orange);
+    color: var(--black);
+    text-align: center;
+    padding: 2rem;
+    font-weight: bolder;
+    border-radius: 5rem;   
+     width: 10rem;
+    height: 10rem;
+}
+
+.navbar2:hover {
+    background-color: var(--pink);
+}
